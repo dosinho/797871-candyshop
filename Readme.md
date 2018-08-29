@@ -1,7 +1,7 @@
 # Личный проект «Кэндишоп» [![Build status][travis-image]][travis-url]
 
 * Студент: [Дастан Наурызбаев](https://up.htmlacademy.ru/javascript/15/user/797871).
-* Наставник: `Неизвестно`.
+* Наставник: [Мурат Баркинхоев] (https://up.htmlacademy.ru/javascript/15/user/186857).
 
 ---
 
