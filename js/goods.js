@@ -83,7 +83,7 @@ var renderGood = function (good) {
   } else if (good.rating.value === 5) {
     goodElement.classList.add('stars__rating--five');
   }
-	return goodElement;
+  return goodElement;
 };
 
 
