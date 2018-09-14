@@ -70,18 +70,18 @@ var renderGood = function (good) {
   } else if (good.amount === 0) {
     goodElement.classList.add('card--soon');
   }
-
-  goodElement.classList.remove('stars__rating--five');
+  var starsRating = goodElement.querySelector('.stars__rating');
+  starsRating.classList.remove('stars__rating--five');
   if (good.rating.value === 1) {
-    goodElement.classList.add('stars__rating--one');
+    starsRating.classList.add('stars__rating--one');
   } else if (good.rating.value === 2) {
-    goodElement.classList.add('stars__rating--two');
+    starsRating.classList.add('stars__rating--two');
   } else if (good.rating.value === 3) {
-    goodElement.classList.add('stars__rating--three');
+    starsRating.classList.add('stars__rating--three');
   } else if (good.rating.value === 4) {
-    goodElement.classList.add('stars__rating--four');
+    starsRating.classList.add('stars__rating--four');
   } else if (good.rating.value === 5) {
-    goodElement.classList.add('stars__rating--five');
+    starsRating.classList.add('stars__rating--five');
   }
   return goodElement;
 };
